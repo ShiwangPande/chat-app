@@ -61,7 +61,7 @@ body{
     border-radius: 6px;
     height: 34px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     #messageInp {
         width: 83.5%;}
 }
