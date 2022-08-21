@@ -1,0 +1,63 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+
+body{
+    background: url('https://th.bing.com/th/id/OIP.HtRde_VYRoG2g_RT0zzX0gHaNK?pid=ImgDet&rs=1');
+    height: 100vh;
+}
+
+.container{
+    max-width: 955px;
+    /* background-color: azure; */
+    margin: auto;
+    height: 60vh;
+    /* border: 2px; */
+    border-width: 4px;
+        border-style: double solid dashed dotted;
+        border-image: linear-gradient(to right, #c060ff 25%, #c669e5 25%, #1d69b9 50%,#26667b 50%, #db00ff 75%, #d33fb2 75%) 5;
+    padding: 33px;
+    overflow-y: auto;
+    margin-top: 23px;
+}
+.message{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 19px;
+    font-weight: 555;
+}
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 985px;
+}
+#messageInp{
+    width: 91.5%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
